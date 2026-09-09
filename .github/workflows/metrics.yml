@@ -46,29 +46,3 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-      - name: Languages in depth
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics/languages.indepth.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: jdnei
-          base: ""
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 8
-          plugin_languages_analysis_timeout: 15
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake
-
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: github-metrics/achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: jdnei
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
