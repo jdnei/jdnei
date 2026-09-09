@@ -14,3 +14,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+## 👥 Followers
+
+![Followers](https://readme-contribs.as93.net/followers/jdnei?shape=circle&hideLabel=true&perRow=10&avatarSize=60&margin=8&limit=100)
+
+## 👥 Followers
+
+![Followers](https://readme-contribs.as93.net/followers/jdnei?shape=circle&hideLabel=true&perRow=10&avatarSize=60&margin=8&limit=100&outerBorderWidth=1&outerBorderColor=d0d7de)
+
