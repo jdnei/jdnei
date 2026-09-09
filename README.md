@@ -6,11 +6,11 @@
   alt="Typing SVG"
 />
 
-<br/>
 
+<!--
 <img src="https://github.com/jdnei.png?size=160" width="118" height="118" alt="jdnei" />
-
-<br/><br/>
+-->
+<br/>
 
 <a href="https://github.com/jdnei">
   <img src="https://img.shields.io/badge/GitHub-jdnei-181717?logo=github&logoColor=white" alt="GitHub" />
@@ -22,11 +22,11 @@
   <img src="https://img.shields.io/badge/Repositories-Open_Source-2ea44f?logo=git&logoColor=white" alt="Repositories" />
 </a>
 
-<br/><br/>
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=jdnei&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
 
-<br/><br/>
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
@@ -55,13 +55,14 @@
 </td>
 </tr>
 </table>
+<!-- 这里故意不再使用 github-readme-stats 的 pin 图片卡片。
+直接使用 GitHub 原生 Markdown/HTML，可以避免第三方图片服务限流或挂掉后出现破图。
 
 ## 🚀 Featured Projects
 
-<!--
-这里故意不再使用 github-readme-stats 的 pin 图片卡片。
-直接使用 GitHub 原生 Markdown/HTML，可以避免第三方图片服务限流或挂掉后出现破图。
--->
+
+
+
 
 <table>
 <tr>
@@ -106,6 +107,9 @@
 </td>
 </tr>
 </table>
+-->
+
+
 
 ---
 
