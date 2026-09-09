@@ -3,7 +3,6 @@ name: GitHub Profile 3D Contrib
 on:
   workflow_dispatch:
   schedule:
-    # 每天 19:17 UTC（北京时间次日 03:17）
     - cron: "17 19 * * *"
 
 permissions:
@@ -15,10 +14,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Generate 3D contribution graph
-        uses: yoshi389111/github-profile-3d-contrib@0.9.3
+        uses: yoshi389111/github-profile-3d-contrib@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
