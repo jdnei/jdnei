@@ -1,0 +1,74 @@
+name: GitHub Metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 每天 00:27 UTC（北京时间 08:27）
+    - cron: "27 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Base metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/base.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jdnei
+          template: classic
+          config_timezone: Asia/Shanghai
+          base: "header, activity, community, repositories"
+
+      - name: Followers wall
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/people.followers.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jdnei
+          base: ""
+          plugin_people: yes
+          plugin_people_types: followers
+          plugin_people_limit: 200
+          plugin_people_size: 36
+          plugin_people_shuffle: no
+
+      - name: Full-year isometric calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jdnei
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+      - name: Languages in depth
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/languages.indepth.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jdnei
+          base: ""
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 8
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake
+
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/achievements.compact.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: jdnei
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
