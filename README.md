@@ -1,19 +1,17 @@
 <div align="center">
 
-<!-- 动态打字标题 -->
+<!-- 动态标题 -->
 <img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0969DA&center=true&vCenter=true&width=760&lines=Hello%2C+I'm+jdnei+%F0%9F%91%8B;Open+Source+%C2%B7+Automation+%C2%B7+Networking;Build%2C+monitor%2C+document%2C+repeat."
+  src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=0969DA&center=true&vCenter=true&width=760&lines=Hello%2C+I'm+jdnei+%F0%9F%91%8B;Build%2C+monitor%2C+document%2C+repeat.;Open+Source+%C2%B7+Automation+%C2%B7+Networking"
   alt="Typing SVG"
 />
 
 <br/>
 
-<!-- 个人头像 -->
-<img src="https://github.com/jdnei.png?size=150" width="120" height="120" alt="jdnei" />
+<img src="https://github.com/jdnei.png?size=160" width="118" height="118" alt="jdnei" />
 
 <br/><br/>
 
-<!-- 快捷徽章 -->
 <a href="https://github.com/jdnei">
   <img src="https://img.shields.io/badge/GitHub-jdnei-181717?logo=github&logoColor=white" alt="GitHub" />
 </a>
@@ -26,12 +24,10 @@
 
 <br/><br/>
 
-<!-- 访问量 -->
 <img src="https://komarev.com/ghpvc/?username=jdnei&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile views" />
 
 <br/><br/>
 
-<!-- 贪吃蛇贡献图 -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="./profile-snake-contrib/github-contribution-grid-snake.svg" />
@@ -40,21 +36,21 @@
 
 </div>
 
-# 🚩 Hello
+## 🚩 Hello
 
 <table>
 <tr>
-<td>
-
-### 🤖 About Me
+<td width="100%">
 
 <img align="right" width="105" src="https://github.com/jdnei.png?size=220" alt="jdnei avatar" />
+
+### 🤖 About Me
 
 - 🔧 喜欢折腾 **GitHub / Linux / VPS / 自动化 / 网络工具**
 - 📚 持续维护开源资料、教程、测评与多语言 README
 - ⚙️ 关注自动化监控、可观测性、CLI 工具与长期稳定运行
 - 🧩 偏爱把重复工作做成脚本、Workflow 和可复用流程
-- 🌱 Keep building. Keep documenting. Keep improving.
+- 🌱 **Keep building. Keep documenting. Keep improving.**
 
 </td>
 </tr>
@@ -62,87 +58,63 @@
 
 ## 🚀 Featured Projects
 
-<div align="center">
+<!--
+这里故意不再使用 github-readme-stats 的 pin 图片卡片。
+直接使用 GitHub 原生 Markdown/HTML，可以避免第三方图片服务限流或挂掉后出现破图。
+-->
 
-<a href="https://github.com/jdnei/JiChangTuiJian">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=jdnei&repo=JiChangTuiJian&show_owner=true&hide_border=true" alt="JiChangTuiJian" />
-</a>
-<a href="https://github.com/jdnei/mojie">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=jdnei&repo=mojie&show_owner=true&hide_border=true" alt="mojie" />
-</a>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://github.com/jdnei/liangxin">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=jdnei&repo=liangxin&show_owner=true&hide_border=true" alt="liangxin" />
-</a>
-<a href="https://github.com/jdnei/vps">
-  <img height="135" src="https://github-readme-stats.vercel.app/api/pin/?username=jdnei&repo=vps&show_owner=true&hide_border=true" alt="vps" />
-</a>
+### ⭐ [mojie](https://github.com/jdnei/mojie)
 
-</div>
+**魔戒机场官方地址**
 
----
+多语言 README 与最新地址维护。
 
-## 📊 GitHub Stats
+</td>
+<td width="50%" valign="top">
 
-<div align="center">
+### ⭐ [JiChangTuiJian](https://github.com/jdnei/JiChangTuiJian)
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=jdnei&show_icons=true&include_all_commits=true&hide_border=true&theme=github_dark"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api?username=jdnei&show_icons=true&include_all_commits=true&hide_border=true&theme=default"
-  />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jdnei&show_icons=true&include_all_commits=true&hide_border=true" alt="GitHub stats" />
-</picture>
+**2026 最新好用的机场推荐与节点分享**
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jdnei&layout=compact&langs_count=8&hide_border=true&theme=github_dark"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=jdnei&layout=compact&langs_count=8&hide_border=true&theme=default"
-  />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jdnei&layout=compact&langs_count=8&hide_border=true" alt="Top languages" />
-</picture>
+持续更新的机场推荐、评测与节点资料。
 
-<br/>
+</td>
+</tr>
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://streak-stats.demolab.com?user=jdnei&hide_border=true&theme=github-dark-blue"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://streak-stats.demolab.com?user=jdnei&hide_border=true"
-  />
-  <img src="https://streak-stats.demolab.com?user=jdnei&hide_border=true" alt="GitHub streak" />
-</picture>
+<tr>
+<td width="50%" valign="top">
 
-</div>
+### ⭐ [liangxin](https://github.com/jdnei/liangxin)
+
+**LiangXin 良心云机场官方地址**
+
+官方地址与相关资料维护。
+
+</td>
+<td width="50%" valign="top">
+
+### ⭐ [naiyun](https://github.com/jdnei/naiyun)
+
+**奈云机场官方地址**
+
+奈云最新地址与相关资料维护。
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 📈 Activity
+## 📊 GitHub Overview
 
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=jdnei&theme=github-compact&hide_border=true"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=jdnei&theme=minimal&hide_border=true"
-  />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jdnei&theme=minimal&hide_border=true" alt="Activity graph" />
-</picture>
+<!-- 本地由 GitHub Actions 生成；不依赖 github-readme-stats / vercel 实时服务 -->
+<img src="./github-metrics/base.svg" alt="GitHub overview metrics" />
 
 </div>
 
@@ -166,42 +138,24 @@
 
 <div align="center">
 
-<!-- 这一块由 lowlighter/metrics 自动生成，效果就是头像墙 + followers 数量 -->
+<!-- 本地由 lowlighter/metrics 生成：真实 followers 数量 + 圆形头像墙 -->
 <img src="./github-metrics/people.followers.svg" alt="Followers" />
 
 </div>
 
 ---
 
-## 🧭 More Metrics
+## 🗓️ Full-Year Contributions
 
 <div align="center">
 
-<img src="./github-metrics/base.svg" alt="GitHub metrics" />
-
-<br/>
-
 <img src="./github-metrics/isocalendar.fullyear.svg" alt="Full year contribution calendar" />
-
-<br/>
-
-<img src="./github-metrics/languages.indepth.svg" alt="Languages metrics" />
-
-<br/>
-
-<img src="./github-metrics/achievements.compact.svg" alt="Achievements" />
 
 </div>
 
 ---
 
 <div align="center">
-
-### 💬 Random Dev Quote
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
-
-<br/><br/>
 
 **Thanks for visiting 👋**
 
