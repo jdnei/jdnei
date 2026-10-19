@@ -123,8 +123,8 @@
 
 </div>
 
----
 
+<!-- 本地由 GitHub Actions 生成；不依赖 github-readme-stats / vercel 实时服务 
 ## 🌌 3D Contributions
 
 <div align="center">
@@ -136,19 +136,19 @@
 </picture>
 
 </div>
+-->
 
----
-
+<!-- 本地由 lowlighter/metrics 生成：真实 followers 数量 + 圆形头像墙 
 ## 👥 Followers
 
 <div align="center">
 
-<!-- 本地由 lowlighter/metrics 生成：真实 followers 数量 + 圆形头像墙 -->
+
 <img src="./github-metrics/people.followers.svg" alt="Followers" />
 
 </div>
+-->
 
----
 
 ## 🗓️ Full-Year Contributions
 
